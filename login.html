@@ -1,0 +1,27 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<form class="form-horizontal">
+				<div class="control-group">
+					<label class="control-label">用户名</label>
+					<div class="controls">
+						<input id="account" type="text" name="account" ng-model="account" />
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">密码</label>
+					<div class="controls">
+						<input id="Password" type="password" name="password" ng-model="password"/>
+					</div>
+				</div>
+				<div class="control-group">
+					<div class="controls">
+						 <label class="checkbox"><input type="checkbox" name="remember" ng-model="remember"/> 记住我</label> 
+						<p class="error">{{error}}</p>
+						 <button type="button" class="btn" ng-click="submit()">登陆</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

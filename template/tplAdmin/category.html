@@ -1,0 +1,14 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div ng-repeat="role in roleids">
+				<!-- <span class="glyphicon glyphicon-home" aria-hidden="true"></span> -->
+				<i class="icon-home"></i>
+				<button class="btn btn-info entrance" type="button" ng-click="entrance($event)" _entrancepro="{{role.roleid}}">{{role.name}}</button>
+				{{clickEvent}}
+				{{ss}}
+				{{pp}}
+			</div>
+		</div>
+	</div>
+</div>
